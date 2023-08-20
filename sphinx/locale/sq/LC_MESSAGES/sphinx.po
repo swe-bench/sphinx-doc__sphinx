@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Sphinx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2023-08-17 14:58+0000\n"
+"POT-Creation-Date: 2023-08-20 22:39+0000\n"
 "PO-Revision-Date: 2013-04-02 08:44+0000\n"
 "Last-Translator: Besnik Bleta <besnik@programeshqip.org>, 2021-2023\n"
 "Language-Team: Albanian (http://app.transifex.com/sphinx-doc/sphinx-1/language/sq/)\n"
@@ -625,7 +625,7 @@ msgstr "po lexohen burime… "
 msgid "docnames to write: %s"
 msgstr "emra dokumentesh për shkrim: %s"
 
-#: sphinx/builders/__init__.py:559 sphinx/builders/singlehtml.py:155
+#: sphinx/builders/__init__.py:559 sphinx/builders/singlehtml.py:156
 msgid "preparing documents"
 msgstr "po përgatiten dokumente"
 
@@ -821,7 +821,7 @@ msgid "no \"man_pages\" config value found; no manual pages will be written"
 msgstr "s’u gjet vlerë formësimi \"man_pages\"; s’do të shkruhet ndonjë faqe doracaku"
 
 #: sphinx/builders/latex/__init__.py:309 sphinx/builders/manpage.py:51
-#: sphinx/builders/singlehtml.py:163 sphinx/builders/texinfo.py:110
+#: sphinx/builders/singlehtml.py:164 sphinx/builders/texinfo.py:110
 msgid "writing"
 msgstr "po shkruhet"
 
@@ -835,11 +835,11 @@ msgstr "vlera e formësimit \"man_pages\" i referohet një dokumenti të panjohu
 msgid "The HTML page is in %(outdir)s."
 msgstr "Faqja HTML gjenden në %(outdir)s."
 
-#: sphinx/builders/singlehtml.py:158
+#: sphinx/builders/singlehtml.py:159
 msgid "assembling single document"
 msgstr "po montohet dokument njësh"
 
-#: sphinx/builders/singlehtml.py:176
+#: sphinx/builders/singlehtml.py:177
 msgid "writing additional files"
 msgstr "po shkruhen kartela shtesë"
 
@@ -2855,24 +2855,24 @@ msgstr "vlerë e pavlefshme mundësie për member-order: %s"
 msgid "invalid value for class-doc-from option: %s"
 msgstr "vlerë e pavlefshme për mundësinë class-doc-from: %s"
 
-#: sphinx/ext/autodoc/__init__.py:391
+#: sphinx/ext/autodoc/__init__.py:388
 #, python-format
 msgid "invalid signature for auto%s (%r)"
 msgstr "nënshkrim i pavlefshëm për auto%s (%r)"
 
-#: sphinx/ext/autodoc/__init__.py:508
+#: sphinx/ext/autodoc/__init__.py:506
 #, python-format
 msgid "error while formatting arguments for %s: %s"
 msgstr "gabim gjatë formatimi argumentesh për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:777
+#: sphinx/ext/autodoc/__init__.py:775
 #, python-format
 msgid ""
 "autodoc: failed to determine %s.%s (%r) to be documented, the following exception was raised:\n"
 "%s"
 msgstr "autodoc: s’u arrit të përcaktohet %s.%s (%r) për t’u dokumentuar, u shfaq përjashtimi vijues:\n%s"
 
-#: sphinx/ext/autodoc/__init__.py:872
+#: sphinx/ext/autodoc/__init__.py:870
 #, python-format
 msgid ""
 "don't know which module to import for autodocumenting %r (try placing a "
@@ -2880,76 +2880,76 @@ msgid ""
 "explicit module name)"
 msgstr "s’dihet cili modul të importohet për vetëdokumentim të %r (provoni të vendosni te dokumenti një direktivë \"module\" ose \"currentmodule\", ose të jepni shprehimisht një emër moduli)"
 
-#: sphinx/ext/autodoc/__init__.py:916
+#: sphinx/ext/autodoc/__init__.py:914
 #, python-format
 msgid "A mocked object is detected: %r"
 msgstr ""
 
-#: sphinx/ext/autodoc/__init__.py:935
+#: sphinx/ext/autodoc/__init__.py:933
 #, python-format
 msgid "error while formatting signature for %s: %s"
 msgstr "gabim gjatë formatimi nënshkrimesh për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:996
+#: sphinx/ext/autodoc/__init__.py:994
 msgid "\"::\" in automodule name doesn't make sense"
 msgstr "\"::\" në emër automoduli nuk ka kuptim"
 
-#: sphinx/ext/autodoc/__init__.py:1003
+#: sphinx/ext/autodoc/__init__.py:1001
 #, python-format
 msgid "signature arguments or return annotation given for automodule %s"
 msgstr ""
 
-#: sphinx/ext/autodoc/__init__.py:1016
+#: sphinx/ext/autodoc/__init__.py:1014
 #, python-format
 msgid ""
 "__all__ should be a list of strings, not %r (in module %s) -- ignoring "
 "__all__"
 msgstr "__all__ should duhet të jetë një listë vargjesh, jo %r (në module %s) -- ignoring __all__"
 
-#: sphinx/ext/autodoc/__init__.py:1082
+#: sphinx/ext/autodoc/__init__.py:1080
 #, python-format
 msgid ""
 "missing attribute mentioned in :members: option: module %s, attribute %s"
 msgstr "u përmend atribut që mungon në :members: mundësi: modul %s, atributi %s"
 
-#: sphinx/ext/autodoc/__init__.py:1298 sphinx/ext/autodoc/__init__.py:1375
-#: sphinx/ext/autodoc/__init__.py:2768
+#: sphinx/ext/autodoc/__init__.py:1296 sphinx/ext/autodoc/__init__.py:1373
+#: sphinx/ext/autodoc/__init__.py:2766
 #, python-format
 msgid "Failed to get a function signature for %s: %s"
 msgstr "S’u arrit të merret një nënshkrim funksioni për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:1586
+#: sphinx/ext/autodoc/__init__.py:1584
 #, python-format
 msgid "Failed to get a constructor signature for %s: %s"
 msgstr "S’u arrit të merrej nënshkrim konstruktori për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:1713
+#: sphinx/ext/autodoc/__init__.py:1711
 #, python-format
 msgid "Bases: %s"
 msgstr "Baza: %s"
 
-#: sphinx/ext/autodoc/__init__.py:1727
+#: sphinx/ext/autodoc/__init__.py:1725
 #, python-format
 msgid "missing attribute %s in object %s"
 msgstr "atribut %s që mungon te objekt %s"
 
-#: sphinx/ext/autodoc/__init__.py:1826 sphinx/ext/autodoc/__init__.py:1863
-#: sphinx/ext/autodoc/__init__.py:1946
+#: sphinx/ext/autodoc/__init__.py:1824 sphinx/ext/autodoc/__init__.py:1861
+#: sphinx/ext/autodoc/__init__.py:1944
 #, python-format
 msgid "alias of %s"
 msgstr "alias për %s"
 
-#: sphinx/ext/autodoc/__init__.py:1846
+#: sphinx/ext/autodoc/__init__.py:1844
 #, python-format
 msgid "alias of TypeVar(%s)"
 msgstr "alias për TypeVar(%s)"
 
-#: sphinx/ext/autodoc/__init__.py:2167 sphinx/ext/autodoc/__init__.py:2264
+#: sphinx/ext/autodoc/__init__.py:2165 sphinx/ext/autodoc/__init__.py:2262
 #, python-format
 msgid "Failed to get a method signature for %s: %s"
 msgstr "S’u arrit të merre një nënshkrim metode për %s: %s"
 
-#: sphinx/ext/autodoc/__init__.py:2395
+#: sphinx/ext/autodoc/__init__.py:2393
 #, python-format
 msgid "Invalid __slots__ found on %s. Ignored."
 msgstr "U gjet __slots__ i pavlefshëm në %s. U shpërfill."
@@ -3307,7 +3307,7 @@ msgstr "Të drejta kopjimi"
 #: sphinx/themes/basic/layout.html:194 sphinx/themes/basic/layout.html:200
 #, python-format
 msgid "&#169; %(copyright_prefix)s %(copyright)s."
-msgstr ""
+msgstr "&#169; %(copyright_prefix)s %(copyright)s."
 
 #: sphinx/themes/basic/layout.html:212
 #, python-format
@@ -3442,11 +3442,11 @@ msgstr "Lëndë"
 
 #: sphinx/transforms/__init__.py:126
 msgid "could not calculate translation progress!"
-msgstr ""
+msgstr "s’u njehsua dot ecuri përkthimi!"
 
 #: sphinx/transforms/__init__.py:131
 msgid "no translated elements!"
-msgstr ""
+msgstr "pa elementë të përkthyer!"
 
 #: sphinx/transforms/__init__.py:238
 #, python-format
@@ -3566,7 +3566,7 @@ msgstr "gabim shkrimi: %s, %s"
 #: sphinx/util/i18n.py:94
 #, python-format
 msgid "locale_dir %s does not exist"
-msgstr ""
+msgstr "locale_dir %s s’ekziston"
 
 #: sphinx/util/i18n.py:185
 #, python-format
@@ -3598,7 +3598,7 @@ msgstr "s’u gjet rol parazgjedhje %s"
 
 #: sphinx/writers/html5.py:100 sphinx/writers/html5.py:109
 msgid "Link to this definition"
-msgstr ""
+msgstr "Lidhje për te ky përkufizim"
 
 #: sphinx/writers/html5.py:397
 #, python-format
@@ -3612,27 +3612,27 @@ msgstr "Çfarëdo ID-sh jo të përshoqëruara për nyjën %s"
 
 #: sphinx/writers/html5.py:462
 msgid "Link to this term"
-msgstr ""
+msgstr "Lidhje për te ky term"
 
 #: sphinx/writers/html5.py:485 sphinx/writers/html5.py:490
 msgid "Link to this heading"
-msgstr ""
+msgstr "Lidhje për te kjo krye"
 
 #: sphinx/writers/html5.py:494
 msgid "Link to this table"
-msgstr ""
+msgstr "Lidhje për te kjo tabelë"
 
 #: sphinx/writers/html5.py:537
 msgid "Link to this code"
-msgstr ""
+msgstr "Lidhje për te ky kod"
 
 #: sphinx/writers/html5.py:539
 msgid "Link to this image"
-msgstr ""
+msgstr "Lidhje për te kjo figurë"
 
 #: sphinx/writers/html5.py:541
 msgid "Link to this toctree"
-msgstr ""
+msgstr "Lidhje për te kjo “toctree”"
 
 #: sphinx/writers/html5.py:679
 msgid "Could not obtain image size. :scale: option is ignored."
